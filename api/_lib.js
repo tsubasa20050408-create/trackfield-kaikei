@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 
-export const CORRECT_PIN = (process.env.CIRCLE_PIN || '0521').trim();
+export const CORRECT_PIN = (process.env.CIRCLE_PIN || '0133').trim();
 const SECRET = process.env.CIRCLE_SECRET || 'circle_kaikei_hmac_2024';
 const TTL = 7 * 24 * 60 * 60 * 1000; // 7日
 
